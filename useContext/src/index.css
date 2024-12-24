@@ -1,0 +1,6 @@
+.component{
+  border: 3px solid rgb(0, 0, 0);
+  padding: 3px 50px;
+  text-align: center;
+  font-size: 1.2rem;
+}
