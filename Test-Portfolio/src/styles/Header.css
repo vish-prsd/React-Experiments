@@ -1,0 +1,36 @@
+.header {
+  background-color: #007BFF;
+  color:aliceblue;
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  font-family: monospace;
+}
+
+.header__title{
+  font-family: monospace;
+  color:aliceblue;
+  margin-bottom: 0;
+}
+
+.header__nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.header__nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.header__nav a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-family: monospace;
+}
+
+.header__nav a:hover{
+  color: rgb(255, 255, 255);
+  transition: ease 0.5s;
+}

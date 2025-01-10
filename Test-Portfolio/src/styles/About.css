@@ -1,0 +1,17 @@
+.about {
+  background-color: #f8f9fa;
+  padding: 30px;
+  text-align: center;
+  width: 80%;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+.about h2 {
+  color: #333;
+  font-family: monospace;
+}
+.about p{
+  color: black;
+  font-family: monospace;
+}

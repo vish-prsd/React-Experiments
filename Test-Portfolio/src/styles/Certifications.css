@@ -1,0 +1,76 @@
+.certifications {
+  background-color: #f8f9fa;
+  padding: 30px;
+  width: 80%;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+.certifications h2 {
+  color: #333;
+  text-align: center;
+}
+
+.certificate-whole{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.certificate-grid{
+  background-color: white;
+  display: grid;
+  grid-template-rows: 10rem 1fr;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+
+.certificate-logo {
+  display: flex; /* Use Flexbox to center the image */
+  justify-content: center; /* Horizontally center the image */
+  align-items: center; /* Vertically center the image */
+  padding: 30px; /* Add some padding for spacing */
+  overflow: hidden; /* Prevent overflow issues */
+}
+
+.image {
+  max-width: 100%; /* Ensure the image is responsive */
+  max-height: 100%; /* Prevent the image from overflowing its container */
+  object-fit: contain; /* Maintain aspect ratio while fitting inside the container */
+  display: block; /* Ensure the image behaves like a block-level element */
+}
+
+
+
+.certificate-details{
+  margin: 0px 20px 20px 20px;
+  padding-bottom: 10px;
+  border-top: 1px solid black;
+}
+
+.certificate-details h2{
+  color: black;
+}
+.certificate-details h4{
+  color: black;
+  margin: 10px 0 0 0;
+}
+
+.certificate-skills-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+  margin-bottom: 20px;
+}
+.certificate-skills-grid p{
+  margin: 8px;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 2px;
+}
+.certificate-details a{
+  color: #007bff;
+}

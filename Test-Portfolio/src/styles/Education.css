@@ -1,0 +1,67 @@
+.education {
+  background-color: #f8f9fa;
+  padding: 30px;
+  width: 80%;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+.education h2 {
+  color: #333;
+  text-align: center;
+}
+
+.education-main-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.education p{
+  color: black;
+  margin: 0;
+}
+.education-grid{
+  display: grid;
+  grid-template-rows: 40px 1fr;
+  border: 1px solid black;
+  border-radius: 20px;
+  /* background-color: blue; */
+  margin-bottom: 30px;
+  overflow: hidden;
+  
+}
+.education-name{
+  background-color: rgb(255, 91, 115);
+  border-bottom: 1px solid black; 
+  padding-top: 10px ;
+
+}
+.education-name h3{
+  margin: 0;
+  text-align: center;
+  /* color: #333; */
+}
+.education-info{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.education-logo{
+  text-align: center;
+  /* background-color: lightgreen; */
+  padding:20px 0 10px 0px;
+}
+.education-logo img{
+  height: 6rem;
+  width: 6rem;
+  padding: 0 0 0 2rem;
+}
+.college-year-percentage{
+  /* background-color: lightblue; */
+  padding:10px 0 10px 20px;
+}
+
+.college-year-percentage p{
+  padding:10px 0 10px 0px;
+}

@@ -1,0 +1,18 @@
+.projects {
+  background-color: #fff;
+  padding: 30px;
+  width: 80%;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+.projects h2 {
+  text-align: center;
+  color: #333;
+}
+
+.projects__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
