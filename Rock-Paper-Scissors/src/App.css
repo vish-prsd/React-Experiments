@@ -1,0 +1,73 @@
+/* Global Body Styling */
+body {
+  background-color: rgb(25, 25, 25);
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding-top: 30px;
+}
+
+/* Title Styling */
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 70px;
+}
+
+/* Instruction Text */
+.instruction {
+  margin-bottom: 30px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+/* Move Button Icons */
+.move-icon {
+  height: 50px;
+}
+
+/* Move Buttons */
+.move-button {
+  height: 120px;
+  width: 120px;
+  background-color: transparent;
+  border: 3px solid white;
+  border-radius: 60px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+/* Separator Line */
+.separator {
+  margin-top: 40px;
+  height: 5px;
+  border: dotted rgb(93, 93, 93);
+}
+
+/* Game Result */
+.result {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+/* Current Score */
+.score {
+  margin-top: 60px;
+}
+
+/* Reset and Auto Play Buttons */
+.reset-score-button,
+.auto-play-button {
+  background-color: lightblue;
+  border: none;
+  border-radius: 50px;
+  font-size: 15px;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+/* Moves Display */
+.move {
+  margin: 0;
+}
